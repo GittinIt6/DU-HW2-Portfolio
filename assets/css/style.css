@@ -58,11 +58,19 @@ header nav ul li{
     /* vertical-align: top; */
 }
 
+main{
+    display:flex;
+    flex-direction: column;
+    gap: 30px; /* gap row column */
+    padding: 25px 0px;
+}
+
 #AboutMe,
 #Work,
 #ContactMe{
     display: flex;
     flex-direction: row;
+    gap: 30px 20px;
 }
 
 .AsideTitle{
@@ -75,34 +83,62 @@ header nav ul li{
     padding: 0px 10px 0px 0px;
     text-align: right;
     font-size: 35px;
-    margin: 10px 5px 10px 8%;
+    /* margin: 10px 5px 10px 8%; */
 }
 
 #AboutMeText{
     text-align: left;
     font-size: 16px;
-    margin: 5px 5px 5px 10px;
+    margin: 0px 5px 5px 10px;
+}
 
+main section article p{
+    margin: 5px 0px 12px 0px;
+}
+
+#WorkFigures{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: space-around;
+    list-style: none;
+    padding:0px;
+    width:80%
+}
+
+#PriWorkItem{
+    width: 99%;
+    height: 200px;
+    border-style: solid;
+    border-color: red;
+}
+
+.SecWorkItem{
+    width: 48%;
+    height: 150px;
+    border-style: solid;
+    border-color: red;
 }
 
 section aside{
-    width:10%;
+    width:15%;
 }
 
 section article{
-    width:85%;
+    width:80%;
 }
 
 section figure{
-    width:85%;
+    /* width:80%; */
 }
 
 footer aside{
-    width:10%;
+    width:15%;
 }
 
 footer section{
-    width:85%;
+    /* width:80%; */
 }
 
 
