@@ -145,9 +145,9 @@ main section article p{
     width:80%;
 }
 
-.WorkItemLink{
+/* .WorkItemLink{
     text-decoration: none;
-}
+} */
 
 #PriWorkItem,
 .SecWorkItem{
